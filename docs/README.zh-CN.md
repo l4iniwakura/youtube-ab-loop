@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/logo-256.png" width="160" height="160" alt="YouTube Loop — A-B Repeat logo">
+</p>
+
 # YouTube Loop — A-B Repeat
 
 [English](README.en.md) · [Русский](README.ru.md) · [简体中文](README.zh-CN.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md)

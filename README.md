@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-256.png" width="160" height="160" alt="YouTube Loop — A-B Repeat logo">
+</p>
+
 # YouTube Loop — A-B Repeat
 
 Loop any part of a YouTube video with A–B controls built into the player, including fullscreen. Free and open source under MIT.

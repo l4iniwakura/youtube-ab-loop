@@ -16,7 +16,7 @@ The [YouTube API branding rules](https://developers.google.com/youtube/terms/bra
 
 ## Release checklist
 
-- Add an original extension icon and real screenshots of the interface.
+- The original icon is included in `icons/` and declared in the manifest. Add real screenshots and the promotional tile.
 - Fill in the single-purpose and privacy disclosures accurately: local A/B points and language preference, no collection or transmission by the extension.
 - Link the public GitHub repository in the store description and support fields.
 - Upload a ZIP with `manifest.json` at its root. The runtime needs `_locales/`, `loop-core.js`, `locales.js`, `language.js`, `content.js`, and the three options files.
@@ -28,7 +28,7 @@ No Chrome Web Store submission has been made. Registration and payment are compl
 ## Publication workflow
 
 1. Register in the [Developer Dashboard](https://chrome.google.com/webstore/devconsole/), enable two-step verification and complete the one-time registration payment and requested publisher details.
-2. Add an original 128 × 128 extension icon to the package and declare it in the manifest. Prepare at least one real 1280 × 800 or 640 × 400 screenshot and a 440 × 280 small promotional tile. These assets have not been supplied yet.
+2. The original icon is already included and declared in the manifest; use `icons/icon-128.png` for the store icon. Prepare at least one real 1280 × 800 or 640 × 400 screenshot and a 440 × 280 small promotional tile. Screenshots and the promotional tile have not been supplied yet.
 3. Build translations, run `npm test`, reload the unpacked extension and manually verify playback and languages.
 4. Create a runtime ZIP with `manifest.json` at the root. Include the scripts, options files, `_locales/` and icons; omit Git metadata and development files.
 5. Create a new store item, upload the ZIP and complete its listing. Use the repository as the source link and GitHub Issues as the support link. Translate the detailed store listing separately from the extension UI.
