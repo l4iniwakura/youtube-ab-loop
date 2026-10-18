@@ -22,7 +22,7 @@ Node.js 18+, no dependencies. Run `npm test`. After editing `_locales/*/messages
 
 ## Publication
 
-The extension is not yet published in Chrome Web Store. A store link will be added after approval. See [publishing notes](docs/PUBLISHING.md) for the name and branding review.
+The extension is not yet published in Chrome Web Store. A store link will be added after approval. See the [publishing guide](docs/PUBLISHING.md), [пошаговый гайд на русском](docs/PUBLISHING.ru.md), and [privacy policy](docs/PRIVACY.md).
 
 ## License
 
