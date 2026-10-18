@@ -1,40 +1,29 @@
-# YouTube A–B Loop
+# YouTube Loop — A-B Repeat
 
-Расширение Chrome для повтора фрагмента YouTube. Кнопка **A–B** встроена в нижнюю правую панель плеера, а настройки открываются поверх видео, в том числе в полноэкранном режиме.
+Loop any part of a YouTube video with A–B controls built into the player, including fullscreen. Free and open source under MIT.
 
-## Установка
+[English](docs/README.en.md) · [Русский](docs/README.ru.md) · [简体中文](docs/README.zh-CN.md) · [Français](docs/README.fr.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Deutsch](docs/README.de.md)
 
-1. Скачайте репозиторий через **Code → Download ZIP** и распакуйте архив (или клонируйте репозиторий).
-2. Откройте `chrome://extensions` в Google Chrome.
-3. Включите **Режим разработчика**.
-4. Нажмите **Загрузить распакованное расширение** и выберите папку с `manifest.json`.
-5. Перезагрузите уже открытые вкладки YouTube.
+## Install
 
-## Использование
+Download or clone this repository. Open `chrome://extensions`, enable **Developer mode**, click **Load unpacked** and select this folder. Reload YouTube. Click **A–B** in the player, set the start and end, and enable looping.
 
-1. Откройте обычное видео на `www.youtube.com/watch`.
-2. Нажмите **A–B** справа внизу плеера. На узком плеере или при большом числе сторонних расширений кнопкам может не хватить места — увеличьте плеер.
-3. В начале нужного фрагмента нажмите **Текущий момент** рядом с A.
-4. В конце фрагмента нажмите **Текущий момент** рядом с B.
-5. Нажмите **Включить повтор**.
+## Languages
 
-Границы можно вводить вручную: `85.5`, `1:25.500`, `0:01:25.500`. Минимальная длина — 0,2 секунды. Пока повтор включён, перемотка за пределы фрагмента возвращает к A. Закрытие панели не выключает повтор; для этого нажмите **Выключить повтор**. Escape закрывает панель.
+Automatically follows Chrome’s UI locale; unsupported languages fall back to English. You can override the language in the extension’s Options. Chinese support currently uses Simplified Chinese.
 
-Границы сохраняются отдельно для каждого видео в локальном хранилище расширения. При переходе к другому видео повтор выключается; сохранённые границы загружаются, но включение всегда остаётся за вами. Сброс удаляет выбранные границы.
+## Documentation
 
-## Ограничения и приватность
+The `docs/` folder contains complete guides in all seven languages. GitHub renders these Markdown files directly; a separate documentation site or Wiki is not required. The English guide includes development and privacy information.
 
-- Поддерживаются обычные видео на настольном YouTube. Shorts, встроенные плееры на других сайтах и прямые эфиры не поддерживаются.
-- Во время рекламы повтор приостанавливается. Изменения интерфейса YouTube могут потребовать обновления расширения.
-- Перемотка использует HTMLVideoElement: возможна короткая задержка на границе, особенно при буферизации и в фоновых вкладках. Это не бесшовный аудиоредактор.
-- Нет внешних библиотек, аналитики и сетевых запросов. Разрешение `storage` используется для границ; content script запускается только на `https://www.youtube.com/*`.
+## Development
 
-## Разработка
+Node.js 18+, no dependencies. Run `npm test`. After editing `_locales/*/messages.json`, run `node scripts/build-locales.cjs` and commit the generated `locales.js`.
 
-Node.js 18+; зависимости не нужны. `npm test` проверяет разбор времени и условия повтора. `node --check content.js` проверяет синтаксис. Для ручной проверки: A/B, ручной ввод и ошибки, пауза, перемотка, B в конце видео, полноэкранный режим, реклама, переход между видео без перезагрузки и восстановление границ после обновления страницы.
+## Publication
 
-Реализация использует Manifest V3 и статический content script: [документация Chrome](https://developer.chrome.com/docs/extensions/develop/concepts/content-scripts).
+The extension is not yet published in Chrome Web Store. A store link will be added after approval. See [publishing notes](docs/PUBLISHING.md) for the name and branding review.
 
-## Лицензия
+## License
 
-MIT — см. LICENSE.
+[MIT](LICENSE). Independent project, not affiliated with or endorsed by YouTube or Google.

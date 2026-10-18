@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "Повтор любого фрагмента YouTube с кнопками A–B прямо в плеере."
+  },
+  "disable": {
+    "message": "Выключить повтор"
+  },
+  "enable": {
+    "message": "Включить повтор"
+  },
+  "activeLabel": {
+    "message": "Повтор A–B включён. Открыть настройки"
+  },
+  "inactiveLabel": {
+    "message": "Настроить повтор A–B"
+  },
+  "saveError": {
+    "message": "Не удалось сохранить границы. Повтор продолжает работать."
+  },
+  "notReady": {
+    "message": "Дождитесь загрузки обычного видео. Прямые эфиры не поддерживаются."
+  },
+  "invalidTime": {
+    "message": "Введите время в пределах видео, например 1:25.500."
+  },
+  "invalidRange": {
+    "message": "B должна быть позже A минимум на 0,2 секунды."
+  },
+  "saved": {
+    "message": "Границы сохранены."
+  },
+  "disabled": {
+    "message": "Повтор выключен."
+  },
+  "playHint": {
+    "message": "Нажмите воспроизведение в плеере."
+  },
+  "playing": {
+    "message": "Фрагмент повторяется по кругу."
+  },
+  "panelTitle": {
+    "message": "Повтор фрагмента"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "start": {
+    "message": "Начало фрагмента"
+  },
+  "end": {
+    "message": "Конец фрагмента"
+  },
+  "current": {
+    "message": "Текущий момент"
+  },
+  "timeHint": {
+    "message": "Время: м:сс или ч:мм:сс"
+  },
+  "initial": {
+    "message": "Поставьте A в начале, B — в конце фрагмента."
+  },
+  "reset": {
+    "message": "Сбросить"
+  },
+  "cleared": {
+    "message": "Границы сброшены."
+  },
+  "storageError": {
+    "message": "Хранилище недоступно. Можно выбрать границы вручную."
+  },
+  "language": {
+    "message": "Язык"
+  },
+  "automatic": {
+    "message": "Автоматически (язык Chrome)"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "settingsSaved": {
+    "message": "Сохранено. Открытые вкладки YouTube обновятся автоматически."
+  }
+}

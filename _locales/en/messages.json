@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "Loop any part of a YouTube video with A–B controls inside the player."
+  },
+  "disable": {
+    "message": "Disable loop"
+  },
+  "enable": {
+    "message": "Enable loop"
+  },
+  "activeLabel": {
+    "message": "A–B loop enabled. Open settings"
+  },
+  "inactiveLabel": {
+    "message": "Set up an A–B loop"
+  },
+  "saveError": {
+    "message": "Could not save the points. Looping still works."
+  },
+  "notReady": {
+    "message": "Wait for a regular video to load. Live streams are not supported."
+  },
+  "invalidTime": {
+    "message": "Enter a time within the video, e.g. 1:25.500."
+  },
+  "invalidRange": {
+    "message": "B must be at least 0.2 seconds after A."
+  },
+  "saved": {
+    "message": "Loop points saved."
+  },
+  "disabled": {
+    "message": "Loop disabled."
+  },
+  "playHint": {
+    "message": "Press Play in the player."
+  },
+  "playing": {
+    "message": "The selected section is looping."
+  },
+  "panelTitle": {
+    "message": "Loop a section"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "start": {
+    "message": "Loop start"
+  },
+  "end": {
+    "message": "Loop end"
+  },
+  "current": {
+    "message": "Set current time"
+  },
+  "timeHint": {
+    "message": "Time: m:ss or h:mm:ss"
+  },
+  "initial": {
+    "message": "Set A at the start and B at the end of the section."
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "cleared": {
+    "message": "Loop points cleared."
+  },
+  "storageError": {
+    "message": "Storage is unavailable. You can still set points manually."
+  },
+  "language": {
+    "message": "Language"
+  },
+  "automatic": {
+    "message": "Automatic (Chrome language)"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "settingsSaved": {
+    "message": "Saved. Open YouTube tabs update automatically."
+  }
+}

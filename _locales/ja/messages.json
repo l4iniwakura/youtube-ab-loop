@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "プレーヤー内の A–B 操作で YouTube 動画の好きな区間をリピートします。"
+  },
+  "disable": {
+    "message": "リピートをオフ"
+  },
+  "enable": {
+    "message": "リピートをオン"
+  },
+  "activeLabel": {
+    "message": "A–B リピートはオンです。設定を開く"
+  },
+  "inactiveLabel": {
+    "message": "A–B リピートを設定"
+  },
+  "saveError": {
+    "message": "区間を保存できませんでした。リピートは引き続き使えます。"
+  },
+  "notReady": {
+    "message": "通常の動画が読み込まれるまでお待ちください。ライブ配信には対応していません。"
+  },
+  "invalidTime": {
+    "message": "動画の範囲内の時刻を入力してください（例：1:25.500）。"
+  },
+  "invalidRange": {
+    "message": "B は A より 0.2 秒以上後に設定してください。"
+  },
+  "saved": {
+    "message": "区間を保存しました。"
+  },
+  "disabled": {
+    "message": "リピートをオフにしました。"
+  },
+  "playHint": {
+    "message": "プレーヤーの再生ボタンを押してください。"
+  },
+  "playing": {
+    "message": "選択した区間をリピートしています。"
+  },
+  "panelTitle": {
+    "message": "区間リピート"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "start": {
+    "message": "区間の開始"
+  },
+  "end": {
+    "message": "区間の終了"
+  },
+  "current": {
+    "message": "現在の時刻に設定"
+  },
+  "timeHint": {
+    "message": "時刻：分:秒 または 時:分:秒"
+  },
+  "initial": {
+    "message": "区間の開始位置に A、終了位置に B を設定してください。"
+  },
+  "reset": {
+    "message": "リセット"
+  },
+  "cleared": {
+    "message": "区間をリセットしました。"
+  },
+  "storageError": {
+    "message": "保存機能を利用できません。区間は手動で設定できます。"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "automatic": {
+    "message": "自動（Chrome の言語）"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "settingsSaved": {
+    "message": "保存しました。開いている YouTube タブに自動で反映されます。"
+  }
+}

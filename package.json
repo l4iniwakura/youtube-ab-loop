@@ -1,1 +1,8 @@
-{"name":"youtube-ab-loop","version":"1.0.0","private":true,"scripts":{"test":"node --test tests/*.test.cjs"}}
+{
+  "name": "youtube-ab-loop",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  }
+}

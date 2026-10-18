@@ -1,12 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "YouTube A–B Loop",
-  "version": "1.0.0",
-  "description": "Повтор выбранного фрагмента A–B прямо в плеере YouTube.",
-  "permissions": ["storage"],
-  "content_scripts": [{
-    "matches": ["https://www.youtube.com/*"],
-    "js": ["loop-core.js", "content.js"],
-    "run_at": "document_idle"
-  }]
+  "name": "__MSG_extensionName__",
+  "version": "1.1.0",
+  "description": "__MSG_description__",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "loop-core.js",
+        "locales.js",
+        "language.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "default_locale": "en",
+  "options_ui": {"page": "options.html", "open_in_tab": true}
 }

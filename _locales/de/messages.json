@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "Wiederhole beliebige YouTube-Abschnitte mit A–B-Steuerung direkt im Player."
+  },
+  "disable": {
+    "message": "Schleife ausschalten"
+  },
+  "enable": {
+    "message": "Schleife einschalten"
+  },
+  "activeLabel": {
+    "message": "A–B-Schleife aktiv. Einstellungen öffnen"
+  },
+  "inactiveLabel": {
+    "message": "A–B-Schleife einrichten"
+  },
+  "saveError": {
+    "message": "Die Punkte konnten nicht gespeichert werden. Die Schleife funktioniert weiterhin."
+  },
+  "notReady": {
+    "message": "Warte, bis ein normales Video geladen ist. Livestreams werden nicht unterstützt."
+  },
+  "invalidTime": {
+    "message": "Gib eine Zeit innerhalb des Videos ein, z. B. 1:25.500."
+  },
+  "invalidRange": {
+    "message": "B muss mindestens 0,2 Sekunden nach A liegen."
+  },
+  "saved": {
+    "message": "Schleifenpunkte gespeichert."
+  },
+  "disabled": {
+    "message": "Schleife ausgeschaltet."
+  },
+  "playHint": {
+    "message": "Drücke im Player auf Wiedergabe."
+  },
+  "playing": {
+    "message": "Der gewählte Abschnitt wird wiederholt."
+  },
+  "panelTitle": {
+    "message": "Abschnitt wiederholen"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "start": {
+    "message": "Anfang des Abschnitts"
+  },
+  "end": {
+    "message": "Ende des Abschnitts"
+  },
+  "current": {
+    "message": "Aktuelle Zeit setzen"
+  },
+  "timeHint": {
+    "message": "Zeit: m:ss oder h:mm:ss"
+  },
+  "initial": {
+    "message": "Setze A an den Anfang und B an das Ende des Abschnitts."
+  },
+  "reset": {
+    "message": "Zurücksetzen"
+  },
+  "cleared": {
+    "message": "Schleifenpunkte zurückgesetzt."
+  },
+  "storageError": {
+    "message": "Speicher nicht verfügbar. Du kannst die Punkte weiterhin manuell setzen."
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "automatic": {
+    "message": "Automatisch (Chrome-Sprache)"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "settingsSaved": {
+    "message": "Gespeichert. Offene YouTube-Tabs werden automatisch aktualisiert."
+  }
+}

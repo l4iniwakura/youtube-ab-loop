@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "通过播放器内的 A–B 控件循环播放 YouTube 视频的任意片段。"
+  },
+  "disable": {
+    "message": "关闭循环"
+  },
+  "enable": {
+    "message": "开启循环"
+  },
+  "activeLabel": {
+    "message": "A–B 循环已开启。打开设置"
+  },
+  "inactiveLabel": {
+    "message": "设置 A–B 循环"
+  },
+  "saveError": {
+    "message": "无法保存循环点。循环播放仍可使用。"
+  },
+  "notReady": {
+    "message": "请等待普通视频加载完成。不支持直播。"
+  },
+  "invalidTime": {
+    "message": "请输入视频范围内的时间，例如 1:25.500。"
+  },
+  "invalidRange": {
+    "message": "B 必须比 A 至少晚 0.2 秒。"
+  },
+  "saved": {
+    "message": "循环点已保存。"
+  },
+  "disabled": {
+    "message": "循环已关闭。"
+  },
+  "playHint": {
+    "message": "请点击播放器中的播放按钮。"
+  },
+  "playing": {
+    "message": "正在循环播放所选片段。"
+  },
+  "panelTitle": {
+    "message": "片段循环"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "start": {
+    "message": "循环起点"
+  },
+  "end": {
+    "message": "循环终点"
+  },
+  "current": {
+    "message": "设为当前时间"
+  },
+  "timeHint": {
+    "message": "时间：分:秒 或 时:分:秒"
+  },
+  "initial": {
+    "message": "在片段开始处设置 A，在结束处设置 B。"
+  },
+  "reset": {
+    "message": "重置"
+  },
+  "cleared": {
+    "message": "循环点已清除。"
+  },
+  "storageError": {
+    "message": "存储不可用。仍可手动设置循环点。"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "automatic": {
+    "message": "自动（Chrome 语言）"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "settingsSaved": {
+    "message": "已保存。已打开的 YouTube 标签页将自动更新。"
+  }
+}

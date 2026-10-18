@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "플레이어 안의 A–B 컨트롤로 YouTube 동영상의 원하는 구간을 반복합니다."
+  },
+  "disable": {
+    "message": "반복 끄기"
+  },
+  "enable": {
+    "message": "반복 켜기"
+  },
+  "activeLabel": {
+    "message": "A–B 반복이 켜져 있습니다. 설정 열기"
+  },
+  "inactiveLabel": {
+    "message": "A–B 구간 반복 설정"
+  },
+  "saveError": {
+    "message": "구간을 저장하지 못했습니다. 반복 기능은 계속 사용할 수 있습니다."
+  },
+  "notReady": {
+    "message": "일반 동영상이 로드될 때까지 기다려 주세요. 실시간 방송은 지원하지 않습니다."
+  },
+  "invalidTime": {
+    "message": "동영상 범위 안의 시간을 입력하세요. 예: 1:25.500."
+  },
+  "invalidRange": {
+    "message": "B는 A보다 최소 0.2초 뒤여야 합니다."
+  },
+  "saved": {
+    "message": "반복 구간을 저장했습니다."
+  },
+  "disabled": {
+    "message": "반복을 껐습니다."
+  },
+  "playHint": {
+    "message": "플레이어에서 재생 버튼을 누르세요."
+  },
+  "playing": {
+    "message": "선택한 구간을 반복 재생합니다."
+  },
+  "panelTitle": {
+    "message": "구간 반복"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "start": {
+    "message": "구간 시작"
+  },
+  "end": {
+    "message": "구간 끝"
+  },
+  "current": {
+    "message": "현재 시간으로 설정"
+  },
+  "timeHint": {
+    "message": "시간: 분:초 또는 시:분:초"
+  },
+  "initial": {
+    "message": "구간의 시작에 A, 끝에 B를 설정하세요."
+  },
+  "reset": {
+    "message": "초기화"
+  },
+  "cleared": {
+    "message": "반복 구간을 초기화했습니다."
+  },
+  "storageError": {
+    "message": "저장소를 사용할 수 없습니다. 구간은 수동으로 설정할 수 있습니다."
+  },
+  "language": {
+    "message": "언어"
+  },
+  "automatic": {
+    "message": "자동 (Chrome 언어)"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "settingsSaved": {
+    "message": "저장했습니다. 열려 있는 YouTube 탭에 자동으로 적용됩니다."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extensionName": {
+    "message": "YouTube Loop — A-B Repeat"
+  },
+  "description": {
+    "message": "Répétez un passage YouTube avec les commandes A–B intégrées au lecteur."
+  },
+  "disable": {
+    "message": "Désactiver la boucle"
+  },
+  "enable": {
+    "message": "Activer la boucle"
+  },
+  "activeLabel": {
+    "message": "Boucle A–B activée. Ouvrir les réglages"
+  },
+  "inactiveLabel": {
+    "message": "Configurer une boucle A–B"
+  },
+  "saveError": {
+    "message": "Impossible de sauvegarder les points. La boucle reste utilisable."
+  },
+  "notReady": {
+    "message": "Attendez le chargement d’une vidéo classique. Les directs ne sont pas pris en charge."
+  },
+  "invalidTime": {
+    "message": "Saisissez un temps dans la vidéo, par exemple 1:25.500."
+  },
+  "invalidRange": {
+    "message": "B doit suivre A d’au moins 0,2 seconde."
+  },
+  "saved": {
+    "message": "Points de boucle sauvegardés."
+  },
+  "disabled": {
+    "message": "Boucle désactivée."
+  },
+  "playHint": {
+    "message": "Appuyez sur Lecture dans le lecteur."
+  },
+  "playing": {
+    "message": "Le passage sélectionné est lu en boucle."
+  },
+  "panelTitle": {
+    "message": "Répéter un passage"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "start": {
+    "message": "Début du passage"
+  },
+  "end": {
+    "message": "Fin du passage"
+  },
+  "current": {
+    "message": "Temps actuel"
+  },
+  "timeHint": {
+    "message": "Temps : m:ss ou h:mm:ss"
+  },
+  "initial": {
+    "message": "Placez A au début et B à la fin du passage."
+  },
+  "reset": {
+    "message": "Réinitialiser"
+  },
+  "cleared": {
+    "message": "Points de boucle effacés."
+  },
+  "storageError": {
+    "message": "Stockage indisponible. Vous pouvez définir les points manuellement."
+  },
+  "language": {
+    "message": "Langue"
+  },
+  "automatic": {
+    "message": "Automatique (langue de Chrome)"
+  },
+  "settings": {
+    "message": "Réglages"
+  },
+  "settingsSaved": {
+    "message": "Enregistré. Les onglets YouTube ouverts seront mis à jour automatiquement."
+  }
+}
